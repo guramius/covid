@@ -1,0 +1,57 @@
+.dissapear{
+    display: none;
+}
+body{
+    background: url("../img/lab-testing-collage.jpg") no-repeat;
+    background-size: 100%;
+}
+.selected{
+    background: url("../img/istockphoto-1213990382-612x612.jpg");
+    margin:auto;
+    margin-top: 10%;
+    border: 2px solid rgba(144, 217, 230, 0.486);
+    border-radius: 10px;
+    padding: 20px 20px;
+    width: 415px;
+}
+p{
+    margin: 10px 0;
+    font-size: 20px;
+    font-weight: bolder;
+    
+}
+span{
+    color: red;
+    font-size: 20px;
+}
+button{
+    background: none;
+    border: 2px solid rgba(255, 0, 0, 0.534);
+    border-radius: 5px;
+    padding: 0 25px;
+    font-size: 20px;
+}
+button:hover{
+    background: linear-gradient(to left,#72A1FF,#AA9BFF);
+    cursor: pointer;
+    border: none;
+    padding: 5px 30px;
+}
+select{
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+    text-transform: capitalize;
+    font-size: 15px;
+    
+
+}
+h1{
+    font-size: 50px;
+    color: white;
+    margin: 10px 0 0 10px;
+    text-transform: capitalize;
+    font-style: italic;
+    text-shadow:2px 2px 3px rgb(255, 255, 255);
+
+}
